@@ -1,0 +1,1308 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.slide-mai {
+    position: fixed;
+    left: -250px;
+    width: 170px;
+    height: 100%;
+    background: aliceblue;
+    transition: ease .7s;
+}
+
+.slide-mai ul a {
+    line-height: 65px;
+    font-size: 1.5em;
+    color: rgb(32, 174, 209);
+    padding-left: 30px;
+}
+
+.slide-mai ul a:hover {
+    color: #000000;
+}
+
+label #bar-mai {
+    position: fixed;
+    cursor: pointer;
+    z-index: 1111;
+    left: 150px;
+    top: 15px;
+    font-size: 2em;
+    padding: 4px 9px;
+    color: rgb(32, 174, 209);
+}
+
+#check-mai:checked ~ .slide-mai {
+    left: 0;
+}
+
+#search-mai {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    position: relative;
+    bottom: 30px;
+}
+
+.header-mai {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    padding: 10px 100px 10px 200px;
+    top: 0;
+}
+
+.logo-mai {
+    text-decoration: none;
+    font-size: 1.8em;
+    color: rgb(32, 174, 209);
+    max-width: 90%;
+    display: flex;
+}
+.logo-mai i{
+    font-size: 1.3em;
+    padding: 2px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.nav-mai {
+    display: flex;
+}
+
+.nav-mai i {
+    font-size: 2em;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.nav-mai a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.nav-mai a:hover {
+    color: rgb(32, 174, 209);
+}
+
+.main-mai {
+    padding: 100px 200px;
+    width: 100%;
+    display: flex;
+    background-image: url(books-1845614.jpg);
+    background-size: cover;
+    transition: ease .7s;
+}
+
+.main-mai p {
+    padding: .9375em 0em;
+    font-size: larger;
+    margin: .67em 0;
+    max-width: 500px;
+    width: 100%;
+}
+
+.main-b-mai {
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    background: rgb(32, 174, 209);
+    font-size: 1.1em;
+    padding: .9375em;
+    cursor: pointer;
+    transition: ease .7s;
+}
+
+.main-b-mai:hover {
+    background-color: rgb(7, 191, 237);
+    color: black;
+    transform: scale(1.1);
+}
+
+.cards-mai {
+    padding: 20px;
+    min-height: 350px;
+}
+
+.title-mai {
+    display: flex;
+    justify-content: center;
+    color: rgb(32, 174, 209);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.title-mai-2 {
+    display: flex;
+    justify-content: center;
+    color: rgb(32, 174, 209);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    padding-top: 60px;
+}
+
+.content-mai {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-mai {
+    background-color: white;
+    width: 30.25em;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    box-shadow: 0 5px 25px darkgrey;
+    transition: ease .7s;
+}
+
+.card-mai:hover {
+    transform: scale(1.1);
+}
+
+.card-mai-2 {
+    background-color: white;
+    width: 30.25em;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    box-shadow: 0 5px 25px darkgrey;
+}
+
+.icon-mai {
+    text-align: center;
+    color: rgb(32, 174, 209);
+    font-size: 8em;
+}
+
+.info-mai {
+    text-align: center;
+}
+
+.info-mai h2 {
+    margin: 10px;
+    text-align: center;
+    color: rgb(32, 174, 209);
+    font-weight: 700;
+}
+
+.info-mai p {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.main-2-mai {
+    padding: 100px 200px;
+    width: 100%;
+    background-image: url(learning-4264032.jpg);
+    background-attachment: local;
+    background-size: cover;
+}
+
+.main-2-mai p {
+    padding: .9375em;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin: .67em 0;
+}
+
+.course-mai {
+    padding: 70px;
+}
+
+.course-b-mai {
+    text-decoration: none;
+    font-size: 1.1em;
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(32, 174, 209);
+    display: inline-block;
+    padding: .5em;
+    transition: ease .7s;
+}
+
+.course-b-mai:hover {
+    background-color: rgb(7, 191, 237);
+    color: black;
+    transform: scale(1.1);
+}
+
+.card-2-mai {
+    background-color: white;
+    width: 21.25em;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    box-shadow: 0 5px 25px darkgrey;
+    transition: ease .7s;
+}
+
+.card-2-mai:hover {
+    transform: scale(1.1);
+}
+
+.course-mai .info-mai p {
+    font-size: 1.1em;
+    text-align: center;
+    padding: 10px;
+}
+
+.h-mai {
+    display: flex;
+    justify-content: center;
+    color: rgb(32, 174, 209);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.p-mai{
+    padding: 100px 200px;
+    background-image: url(OIP\ \(2\).jpeg);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.p-mai iframe {
+    border: 0;
+    position: relative;
+    bottom: 0.975em;
+}
+
+.p-mai .frame-mai {
+    width: fit-content;
+    height: fit-content;
+}
+
+.map-mai {
+    position: relative;
+    bottom: 2.5em;
+}
+
+.map-mai img {
+    width: 12.5em;
+    height: 11.75em;
+}
+
+.course-b-2-mai {
+    text-decoration: none;
+    font-size: 1.3em;
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(32, 174, 209);
+    display: inline-block;
+    padding: .5em;
+    transition: ease .7s;
+    margin-top: 15px;
+}
+
+.course-b-2-mai :hover {
+    transform: scale(1.1);
+}
+
+.card-2-mai img {
+    max-width: 100%; 
+    max-height: 100%;
+}
+
+.container-mai {
+    padding: 25px;
+    box-shadow: 0 5px 25px darkgrey;
+    margin-bottom: 35px;
+}
+
+.info-2-mai {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title-teacher-mai {
+    display: flex;
+    justify-content: center;
+    color: rgb(32, 174, 209);
+    font-size: 2.2em;
+    font-weight: 800;
+    padding-top: 85px;
+    padding-bottom: 25px;
+}
+
+.icon-2-mai {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-2-mai img {
+    border-radius: 50%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.p-2-mai {
+    text-align: center;
+}
+
+.social-2-mai {
+    display: flex;
+    justify-content: center;
+}
+
+.social-2-mai p {
+    text-align: center;
+    color: #000000;
+    padding-top: 10px;
+}
+
+.social-2-mai a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    padding-right: 10px;
+    font-size: 1.7em;
+    transition: ease .7s;
+    margin-top: 10px;
+}
+
+.facebook-2-mai :hover{
+    color: #2c6eac;
+}
+
+.twitter-2-mai :hover{
+    color: #1da1f2;
+}
+
+.youtube-2-mai :hover{
+    color:#fd1d1d;
+}
+
+.instagram-2-mai :hover {
+    background: linear-gradient(to right ,#833ab4, #fd1d1d);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+.tiktok-2-mai :hover {
+    background: linear-gradient(#000000 ,#3bc5ef, #fd1d1d);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}  
+
+.title-2-mai {
+    display: flex;
+    justify-content: center;
+    color: rgb(32, 174, 209);
+    font-size: 2.2em;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.sections-2-mai {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.video-mai video {
+    height: 350px;
+}
+
+.video-mai a {
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.video-mai p:hover {
+    color: rgb(32, 174, 209);
+}
+
+.video-mai a p {
+    padding-top: 15px;
+}
+
+.tab-mai {
+    width: 100%;
+    font-size: 20px;
+}
+
+.tab-mai th {
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+
+.tab-mai td {
+    padding: 30px;
+}
+
+.tab-mai td:last-child {
+    color: white;
+    font-weight: bold;
+}
+
+.button-mai {
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background: rgb(32, 174, 209);
+    font-size: 1.1em;
+    padding: .9375em;
+    cursor: pointer;
+    transition: ease .7s;
+}
+
+.button-mai:hover {
+    background-color: rgb(7, 191, 237);
+    color: black;
+    transform: scale(1.1);
+}
+
+.all-mai {
+    padding-bottom: 20px;
+    padding-top: 70px;
+}
+
+.date-mai {
+    color: gray;
+    padding-left: 10px;
+}
+
+.title-pri-mai,
+.ar-mai {
+    padding: 20px;
+}
+
+.artical-mai {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.artical-mai h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.artical-mai p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #000000;
+}
+
+.artical-mai a {
+    text-decoration: none;
+    color: rgb(32, 174, 209);
+}
+
+.section-mai {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 70px;
+}
+
+.forrm-mai {
+    width: 300px;
+}
+
+.form-mai {
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px darkgrey;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 600px;
+
+}
+
+.form-mai label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.form-mai input[type="text"],
+.form-mai input[type="email"],
+.form-mai textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    border: none;
+    border-bottom: 1px solid rgb(32, 174, 209);
+}
+
+.form-mai textarea {
+    resize: vertical;
+    max-height: 105px;
+    min-height: 85px;
+}
+
+.form-mai input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(32, 174, 209);
+    color: #ffffff;
+    font-size: 1.1em;
+    transition: 0.7s ease;
+}
+
+.form-mai input[type="submit"]:hover {
+    transform: scale(1.1);
+    background-color: rgb(7, 191, 237);
+    color: #000000;
+}
+
+.form-h-mai-2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    font-size: 1.7em;
+    color: rgb(39, 174, 209);
+}
+
+.form-mai-2 {
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px darkgrey;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 700px;
+
+}
+
+.form-mai-2 label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.form-mai-2 input[type="text"],
+.form-mai-2 input[type="email"],
+.form-mai-2 input[type="password"] {
+    border: none;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    border-bottom: 1px solid rgb(32, 174, 209);
+}
+
+.form-mai-2 input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(32, 174, 209);
+    color: #ffffff;
+    font-size: 1.1em;
+    transition: 0.7s ease;
+}
+
+.form-mai-2 input[type="submit"]:hover {
+    transform: scale(1.1);
+    background-color: rgb(7, 191, 237);
+    color: #000000;
+}
+
+.form-h-mai-2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    font-size: 1.7em;
+    color: rgb(39, 174, 209);
+}
+
+.form-mai-3 {
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px darkgrey;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+
+}
+
+.form-mai-3 label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.form-mai-3 input[type="email"],
+.form-mai-3 input[type="password"] {
+    border: none;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    border-bottom: 1px solid rgb(32, 174, 209);
+}
+
+.form-mai-3 input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(32, 174, 209);
+    color: #ffffff;
+    font-size: 1.1em;
+    transition: 0.7s ease;
+}
+
+.form-mai-3 input[type="submit"]:hover {
+    transform: scale(1.1);
+    background-color: rgb(7, 191, 237);
+    color: #000000;
+}
+
+.forget-mai {
+    padding-bottom: 10px;
+    margin-left: 60px;
+}
+
+#Next {
+    margin-left: 110px;
+    border-radius: 15px;
+    font-size: 1.1em;
+    border: 2px solid;
+    padding: .5em;
+    
+}
+
+#Next:hover {
+    background-color: rgb(7, 191, 237);
+}
+
+#quiz-container h1 {
+    padding-bottom: 10px;
+}
+
+#question-container {
+    padding-bottom: 10px;
+}
+
+#quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#options-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#btn {
+    font-size: 1.1em;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: .5em;
+    background-color: #ffffff;
+    transition: ease .7s;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: rgb(7, 191, 237);
+    transform: scale(1.1);
+}
+
+#question {
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+.button-2-mai {
+    font-size: 1.1em;
+    border-radius: 7px;
+    background-color: white;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+    width: 150px;
+    height: 55px;
+    transition: ease .7s;
+}
+
+.button-2-mai:hover {
+    transform: scale(1.1);
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#pos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+#div {
+    background-color: white;
+    width: 28.25em;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    box-shadow: 0 5px 25px darkgrey;
+    min-height: 30em;
+}
+
+
+.footer-mai {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.list-mai {
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.list-mai ul{
+    padding: 5px;
+    margin: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-mai a {
+    text-decoration: none;
+    color: #ffffff; 
+}
+
+.list-mai a:hover{
+    color: rgb(7, 191, 237);
+}
+
+.social-mai p {
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.social-mai a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding-right: 10px;
+    font-size: 1.7em;
+    transition: ease .7s;
+    margin-top: 10px;
+}
+
+.facebook-mai :hover{
+    color: #2c6eac;
+}
+
+.twitter-mai :hover{
+    color: #1da1f2;
+}
+
+.instagram-mai :hover {
+    background: linear-gradient(to right,#833ab4, #fd1d1d);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+.cr-mai {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+body {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.night-mode {
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.night-mode .card-mai {
+    background-color: #000000;
+}
+
+.night-mode .card-mai p {
+    color: #ffffff;
+}
+
+.night-mode .card-2-mai {
+    background-color: #000000;
+}
+
+.night-mode .card-2-mai p {
+    color: #ffffff;
+}
+
+.night-mode .card-mai-2 {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.night-mode .header-mai {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.night-mode .nav-mai a {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.night-mode .nav-mai a:hover {
+    color: rgb(32, 174, 209);
+}
+
+.night-mode .container-mai {
+    color: #ffffff;
+}
+
+.night-mode .video-mai a {
+    color: #ffffff;
+}
+
+.night-mode .facebook-2-mai,
+.night-mode .twitter-2-mai,
+.night-mode .tiktok-2-mai,
+.night-mode .youtube-2-mai,
+.night-mode .instagram-2-mai {
+    color: #ffffff;
+}
+
+.night-mode .tab-mai th {
+    background-color: #161313;
+}
+
+.night-mode .title-pri-mai h1 {
+    color: #ffffff;
+}
+
+.night-mode .artical-mai h2,
+.night-mode .artical-mai p {
+    color: #ffffff;
+}
+
+.night-mode .li-mai {
+    color: #ffffff;
+}
+
+.night-mode .artical-mai h3,
+.night-mode .artical-mai h5 {
+    color: #ffffff;
+}
+
+.night-mode .form-mai{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.night-mode .form-mai input[type="text"],
+.night-mode .form-mai input[type="email"],
+.night-mode .form-mai textarea {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.night-mode .form-mai-2{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.night-mode .form-mai-2 input[type="text"],
+.night-mode .form-mai-2 input[type="email"],
+.night-mode .form-mai-2 input[type="password"] {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.night-mode .form-mai-3{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.night-mode .form-mai-3 input[type="email"],
+.night-mode .form-mai-3 input[type="password"] {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.night-mode #div {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.night-mode .slide-mai {
+    background-color: #000000;
+}
+
+.night-mode .slide-mai ul a:hover {
+    color: #ffffff;
+}
+
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 1025px) {
+    .nav-mai {
+        padding-left: 110px;
+    }
+
+    label #bar-mai {
+        padding-top: 15px
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .form-mai input[type="text"],
+    .form-mai input[type="email"], 
+    .form-mai textarea,
+    .form-mai input[type="submit"] {
+        width: 255px;
+        margin-left: 10px;
+    }
+
+    .form-mai label {
+        margin-left: 10px;
+    }
+
+    label #bar-mai {
+        font-size: 1.3em;
+        position: absolute;
+        left: 5px;
+        top: -2px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header-mai {
+        padding: 12px 5%;
+    }
+
+    .logo-mai {
+        max-width: 70%;
+        font-size: .8em;
+    }
+
+    .nav-mai {
+        align-items: center;
+        font-size: 0.6em;
+        position: absolute;
+        right: 5px;
+    }
+
+    .main-mai,
+    .main-2-mai,
+    .p-mai {
+        padding: 80px 5%;
+    }
+
+    .main-mai p,
+    .main-2-mai p {
+        width: 100%;
+    }
+
+    .p-mai iframe {
+        width: 235px;
+        height: 135px;
+    }
+
+    .p-mai .frame-mai {
+        width: 185px;
+    }
+
+    .p-mai .map-mai{
+        position: relative;
+        bottom: 2.5em;
+    }
+
+    .map-mai img {
+        position: relative;
+        width: 5.5em;
+        height: 5.5em;
+        left: 2em;
+        top: 2em;
+    }
+
+    .map-mai .map-h-mai {
+        position: relative;
+        top: 5em;
+    }
+    .cards-mai {
+        padding: 10px;
+    }
+
+    .card-mai,
+    .card-2-mai {
+        max-width: 90%;
+    }
+
+    .video-mai video {
+        height: 200px;
+        width: 265px;
+    }
+
+    .tab-mai th,
+    .tab-mai td {
+        padding: 15px; 
+        font-weight: 700;
+        font-size: xx-small;
+    }
+
+    .course-mai {
+        padding: 40px;
+    }
+
+    .form-mai {
+        padding-top: 40px;
+        width: 300px;
+    }
+
+    .form-mai input[type="text"],
+    .form-mai input[type="email"], 
+    .form-mai textarea,
+    .form-mai input[type="submit"] {
+        width: 255px;
+        margin-left: 10px;
+    }
+
+    .form-mai label {
+        margin-left: 10px;
+    }
+
+    .social-mai a {
+        font-size: 1.3em;
+    }
+
+    .list-mai {
+        font-size: .7em;
+    }
+
+    .slide-mai {
+        width: 140px;
+    }
+
+    .slide-mai ul a {
+        font-size: 1em;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    label #bar-mai {
+        font-size: 1em;
+        position: absolute;
+        left: -3px;
+        top: 0px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .header-mai {
+        padding: 10px 5%;
+    }
+
+    .logo-mai {
+        max-width: 70%;
+        font-size: .6em;
+    }
+
+    .nav-mai {
+        align-items: center;
+        font-size: 0.4em;
+        position: absolute;
+        right: 5px;
+    }
+
+    .nav-mai a {
+        padding: 8px;
+    }
+
+    label #bar-mai {
+        font-size: 0.7em;
+        position: absolute;
+        left: -4px;
+        top: -2px;
+    }
+
+    .main-mai,
+    .main-2-mai,
+    .p-mai {
+        padding: 60px 5%;
+    }
+
+    .p-mai iframe {
+        width: 130px;
+        height: 105px;
+    }
+
+    .p-mai .frame-mai {
+        width: 75px;
+    }
+
+    .p-mai .map-mai{
+        position: relative;
+        bottom: 2.5em;
+    }
+
+    .map-mai img {
+        position: relative;
+        width: 5.5em;
+        height: 5.5em;
+        left: 2em;
+        top: 2em;
+    }
+
+    .map-mai .map-h-mai {
+        position: relative;
+        top: 5em;
+    }
+
+    .cards-mai {
+        padding: 8px;
+    }
+
+    .card-mai,
+    .card-2-mai {
+        width: 95%;
+        max-width: 95%;
+    }
+
+    .container-mai {
+        align-items: center;
+    }
+
+    .title-2-mai {
+        font-size: 1.8em; 
+    }
+
+    .video-mai video {
+        height: 200px;
+        width: 265px;
+    }
+
+    .tab-mai th,
+    .tab-mai td {
+        padding: 15px; 
+        font-weight: 700;
+        font-size: xx-small;
+    }
+
+    .course-mai {
+        padding: 30px;
+    }
+
+    .form-mai {
+        padding-top: 40px;
+        width: 300px;
+    }
+
+    .form-mai input[type="text"],
+    .form-mai input[type="email"], 
+    .form-mai textarea,
+    .form-mai input[type="submit"] {
+        width: 255px;
+        margin-left: 10px;
+    }
+
+    .form-mai-2 label {
+        margin-left: 10px;
+    }
+
+    .form-mai-2 {
+        padding-top: 40px;
+        width: 300px;
+    }
+
+    .form-mai-2 input[type="text"],
+    .form-mai-2 input[type="password"]
+    .form-mai-2 input[type="email"], 
+    .form-mai-2 input[type="submit"] {
+        width: 255px;
+        margin-left: 10px;
+    }
+
+    .form-mai-3 label {
+        margin-left: 10px;
+    }
+
+    .form-mai-3 {
+        padding-top: 40px;
+        width: 300px;
+    }
+
+    .form-mai-3 input[type="password"],
+    .form-mai-3 input[type="email"], 
+    .form-mai-2 input[type="submit"] {
+        width: 255px;
+        margin-left: 10px;
+    }
+
+    .forget-mai a {
+        display: flex;
+        margin-bottom: 5px;
+    }
+
+
+    .form-mai label {
+        margin-left: 10px;
+    }
+
+    .list-mai {
+        font-size: .6em;
+    }
+
+    .slide-mai {
+        width: 100px;
+    }
+
+    .slide-mai ul a {
+        font-size: .7em;
+    }
+
+    .social-mai a {
+        font-size: 1.1em;
+    }
+}
